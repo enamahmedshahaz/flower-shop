@@ -1,4 +1,47 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
+}
+
+/* banner section style */
+
+header {
+    background-color: #e5547344;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    width: 80%;
+    margin: auto;
+}
+
+.banner-text {
+    width: 300px;
+}
+
+.banner-img {
+    width: 300px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 14px;
+    margin-top: 15px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
