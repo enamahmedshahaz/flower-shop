@@ -5,7 +5,7 @@
 
 /* banner section style */
 
-header {
+header,  .full-width {
     background-color: #e5547344;
 }
 
@@ -44,4 +44,124 @@ header {
     color: white;
     border: none;
     border-radius: 5px;
+}
+
+/* flower box styles */
+
+.f-title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.f-desc{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.flower-box {
+ width: 150px;
+ height: 150px;
+ border-radius: 75px 75px 0px 0px;
+ background-color: burlywood;
+}
+
+.box-flower-image{
+    width: 70%;
+}
+
+.flower-box-container{
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+}
+
+.featured-section{
+    width: 80%;
+    margin: auto;
+}
+
+.box1{
+    background-color: #049CA6;
+}
+
+.box2{
+    background-color: #322a95;
+}
+
+.box3{
+    background-color: #946CA6;
+}
+
+.flower-text-container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 55px;
+}
+
+.flower-text-container p {
+font-size: 10px;
+text-decoration: underline;
+}
+
+/* optional section style */
+
+.optional-section{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5547344;
+    margin-top: 50px;
+}
+
+.icon-box{
+    padding: 50px;
+    text-align: center;
+}
+.icon-box-img{
+    width: 50px;
+}
+.icon-box-text{
+    color: gray;
+    font-size: small;
+}
+
+
+/* deals style */
+
+.deal-section{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.deal-text{
+   text-align: center;
+}
+
+.deal-img{
+    width: 200px;
+}
+
+
+/* Instagram related styles */
+
+.insta-sec{
+    width: 80%;
+    margin: auto;
+}
+
+.insta-photo-cards{
+    display: flex;
+    justify-content: center;
 }
