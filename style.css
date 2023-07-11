@@ -159,9 +159,29 @@ text-decoration: underline;
 .insta-sec{
     width: 80%;
     margin: auto;
+    padding-top: 30px;
 }
 
 .insta-photo-cards{
     display: flex;
     justify-content: center;
+    gap: 10px;
+}
+
+.insta-text{
+    text-align: center;
+}
+
+.card-img{
+    width: 150px;
+    height: 200px;
+}
+
+.insta-heading{
+    padding: 10px;
+}
+
+.insta-desc{
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
