@@ -3,10 +3,37 @@
     padding: 0;
 }
 
+.primary-color {
+    color: rgba(229, 84, 115, 1);
+}
+
+
+/*nav section style */
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.1);
+    padding: 20px;
+}
+
+.menu-container {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    color: gray;
+}
+
+.menu:hover {
+    color: rgba(229, 84, 115, 1);
+}
+
 /* banner section style */
 
-header,  .full-width {
-    background-color: #e5547344;
+header,
+.full-width {
+    background-color: rgba(229, 84, 115, 0.1);
 }
 
 .banner-container {
@@ -40,7 +67,7 @@ header,  .full-width {
 
 .btn {
     padding: 10px 20px;
-    background-color: red;
+    background-color: rgba(229, 84, 115, 1);
     color: white;
     border: none;
     border-radius: 5px;
@@ -48,53 +75,53 @@ header,  .full-width {
 
 /* flower box styles */
 
-.f-title{
+.f-title {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 10px;
 }
 
-.f-desc{
+.f-desc {
     text-align: center;
     margin-bottom: 20px;
     font-size: small;
 }
 
 .flower-box {
- width: 150px;
- height: 150px;
- border-radius: 75px 75px 0px 0px;
- background-color: burlywood;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px 75px 0px 0px;
+    background-color: burlywood;
 }
 
-.box-flower-image{
+.box-flower-image {
     width: 70%;
 }
 
-.flower-box-container{
- display: flex;
- justify-content: center;
- gap: 20px;
+.flower-box-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
-.featured-section{
+.featured-section {
     width: 80%;
     margin: auto;
 }
 
-.box1{
-    background-color: #049CA6;
+.box1 {
+    background-color: rgba(253, 238, 241, 1);
 }
 
-.box2{
-    background-color: #322a95;
+.box2 {
+    background-color: rgba(4, 156, 166, 0.15);
 }
 
-.box3{
-    background-color: #946CA6;
+.box3 {
+    background-color: rgba(71, 125, 17, 0.15);
 }
 
-.flower-text-container{
+.flower-text-container {
     display: flex;
     margin-top: 20px;
     justify-content: center;
@@ -102,32 +129,34 @@ header,  .full-width {
 }
 
 .flower-text-container p {
-font-size: 10px;
-text-decoration: underline;
+    font-size: 10px;
+    text-decoration: underline;
 }
 
 /* optional section style */
 
-.optional-section{
+.optional-section {
     width: 80%;
     height: 200px;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e5547344;
+    background-color: rgba(39, 39, 39, 0.05);
     margin-top: 50px;
     border-radius: 5px;
 }
 
-.icon-box{
+.icon-box {
     padding: 50px;
     text-align: center;
 }
-.icon-box-img{
+
+.icon-box-img {
     width: 50px;
 }
-.icon-box-text{
+
+.icon-box-text {
     color: gray;
     font-size: small;
 }
@@ -135,7 +164,7 @@ text-decoration: underline;
 
 /* deals style */
 
-.deal-section{
+.deal-section {
 
     display: flex;
     justify-content: space-around;
@@ -146,54 +175,54 @@ text-decoration: underline;
     margin-top: 40px;
 }
 
-.deal-text{
-   text-align: center;
+.deal-text {
+    text-align: center;
 }
 
-.deal-img{
+.deal-img {
     width: 200px;
 }
 
 
 /* Instagram related styles */
 
-.insta-sec{
+.insta-sec {
     width: 80%;
     margin: auto;
     padding-top: 30px;
 }
 
-.insta-photo-cards{
+.insta-photo-cards {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-.insta-text{
+.insta-text {
     text-align: center;
 }
 
-.card-img{
+.card-img {
     width: 150px;
     height: 200px;
 }
 
-.insta-heading{
+.insta-heading {
     padding: 10px;
 }
 
-.insta-desc{
+.insta-desc {
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
 /* form section related related style */
 
-.form-container{
+.form-container {
     width: 80%;
     margin: auto;
     background-image: url('./asstet/image/Rectangle\ 9.png');
-   
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -201,16 +230,16 @@ text-decoration: underline;
 
     margin-top: 50px;
     margin-bottom: 50px;
-    
+
 }
 
-.form-text{
+.form-text {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 20px;
 }
 
-.form-input{
+.form-input {
     display: flex;
     justify-content: center;
     gap: 5px;
@@ -218,10 +247,26 @@ text-decoration: underline;
     padding-bottom: 60px;
 }
 
-.email-form{
+.email-form {
     border: 0;
     padding: 10px 50px 10px 5px;
     background-color: white;
     color: gray;
     border-radius: 5px;
+}
+
+/* footer section style */
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.footer-title {
+    padding-top: 40px;
+}
+
+.footer-year-sec {
+    padding-bottom: 40px;
 }
