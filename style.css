@@ -38,7 +38,7 @@ header,
 
 .banner-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 50vh;
     width: 80%;
@@ -46,22 +46,29 @@ header,
 }
 
 .banner-text {
-    width: 300px;
+    width: 50%;
+
 }
 
-.banner-img {
+.banner-photo {
+    width: 50%;
+    text-align: right;
+}
+
+.banner-img{
     width: 300px;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 45px;
     font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .desc {
-    font-size: 14px;
-    margin-top: 15px;
-    color: gray;
+    font-size: 13px;
+    color: rgba(39, 39, 39, 0.6);
     margin-bottom: 15px;
 }
 
@@ -83,25 +90,29 @@ header,
 
 .f-desc {
     text-align: center;
-    margin-bottom: 20px;
-    font-size: small;
+    font-size: 13px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 30px;
 }
 
 .flower-box {
-    width: 150px;
-    height: 150px;
-    border-radius: 75px 75px 0px 0px;
-    background-color: burlywood;
+    height: 300px;
+    width: 400px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 200px 200px 0px 0px;
 }
 
 .box-flower-image {
-    width: 70%;
+    width: 60%;
 }
 
 .flower-box-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+     display: flex;
+     justify-content: space-between;
+     gap: 45px;
+     margin: auto;
 }
 
 .featured-section {
@@ -123,22 +134,28 @@ header,
 
 .flower-text-container {
     display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: auto;
     margin-top: 20px;
-    justify-content: center;
-    gap: 55px;
+   
 }
 
-.flower-text-container p {
-    font-size: 10px;
+.flower-text{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    font-size: 14px;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 /* optional section style */
 
 .optional-section {
     width: 80%;
-    height: 200px;
     margin: auto;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,6 +201,13 @@ header,
 }
 
 
+.deal-dec{
+    font-size: 13px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 /* Instagram related styles */
 
 .insta-sec {
@@ -194,7 +218,7 @@ header,
 
 .insta-photo-cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
 }
 
@@ -203,8 +227,8 @@ header,
 }
 
 .card-img {
-    width: 150px;
-    height: 200px;
+    width: 220px;
+    height: 255px;
 }
 
 .insta-heading {
@@ -212,22 +236,23 @@ header,
 }
 
 .insta-desc {
-    margin-bottom: 10px;
-    margin-top: 10px;
+    font-size: 13px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 /* form section related related style */
 
 .form-container {
     width: 80%;
+    height: 250px;
     margin: auto;
     background-image: url('./asstet/image/Rectangle\ 9.png');
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 5px;
-
     margin-top: 50px;
     margin-bottom: 50px;
 
@@ -242,31 +267,48 @@ header,
 .form-input {
     display: flex;
     justify-content: center;
-    gap: 5px;
     align-items: center;
     padding-bottom: 60px;
 }
 
 .email-form {
     border: 0;
-    padding: 10px 50px 10px 5px;
+    padding: 10px 250px 10px 5px;
     background-color: white;
     color: gray;
     border-radius: 5px;
 }
 
+.form-desc{
+    font-size: 13px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
 /* footer section style */
 
 footer {
     text-align: center;
-    background-color: black;
+    background-color: rgba(17, 16, 16, 1);
     color: white;
+    height: 200px;
 }
 
 .footer-title {
     padding-top: 40px;
 }
 
-.footer-year-sec {
-    padding-bottom: 40px;
+.footer-desc{
+    font-size: 13px;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
+
+.footer-year-sec {
+    font-size: 10px;
+    color: darkgray;
+}
+
